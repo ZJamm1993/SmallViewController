@@ -13,6 +13,8 @@
 		3959C0521E7FCAF800693EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3959C0501E7FCAF800693EC8 /* Main.storyboard */; };
 		3959C0541E7FCAF800693EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3959C0531E7FCAF800693EC8 /* Assets.xcassets */; };
 		3959C0571E7FCAF800693EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3959C0551E7FCAF800693EC8 /* LaunchScreen.storyboard */; };
+		3959C0631E7FD0D500693EC8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3959C0621E7FD0D500693EC8 /* RootViewController.m */; };
+		3959C0661E7FDC9C00693EC8 /* PopOverNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3959C0651E7FDC9C00693EC8 /* PopOverNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3959C0531E7FCAF800693EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3959C0561E7FCAF800693EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3959C0581E7FCAF800693EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3959C0611E7FD0D500693EC8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3959C0621E7FD0D500693EC8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3959C0641E7FDC9C00693EC8 /* PopOverNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverNavigationController.h; sourceTree = "<group>"; };
+		3959C0651E7FDC9C00693EC8 /* PopOverNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				3959C0551E7FCAF800693EC8 /* LaunchScreen.storyboard */,
 				3959C0581E7FCAF800693EC8 /* Info.plist */,
 				3959C0471E7FCAF800693EC8 /* Supporting Files */,
+				3959C0611E7FD0D500693EC8 /* RootViewController.h */,
+				3959C0621E7FD0D500693EC8 /* RootViewController.m */,
+				3959C0641E7FDC9C00693EC8 /* PopOverNavigationController.h */,
+				3959C0651E7FDC9C00693EC8 /* PopOverNavigationController.m */,
 			);
 			path = SmallViewController;
 			sourceTree = "<group>";
@@ -151,7 +161,9 @@
 			files = (
 				3959C04F1E7FCAF800693EC8 /* ViewController.m in Sources */,
 				3959C04C1E7FCAF800693EC8 /* AppDelegate.m in Sources */,
+				3959C0661E7FDC9C00693EC8 /* PopOverNavigationController.m in Sources */,
 				3959C0491E7FCAF800693EC8 /* main.m in Sources */,
+				3959C0631E7FD0D500693EC8 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
