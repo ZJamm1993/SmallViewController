@@ -8,7 +8,7 @@
 
 #import "PopOverNavigationController.h"
 
-#define defaultRect CGRectMake(0, 0, 200, 200)
+#define defaultRect CGRectMake(0, 0, 240, 240)
 
 @interface PopOverNavigationController ()<UIPopoverPresentationControllerDelegate>
 
@@ -34,9 +34,15 @@
             popOver.delegate=self;
             popOver.sourceView=sourceView;
             popOver.sourceRect=sourceView.bounds;
+            popOver.backgroundColor=[UIColor clearColor];
         }
     }
     return self;
+}
+
+-(instancetype)initWithRootViewController:(UIViewController *)rootViewController
+{
+    return [self initWithRootViewController:rootViewController sourceView:nil];
 }
 
 - (void)viewDidLoad {
